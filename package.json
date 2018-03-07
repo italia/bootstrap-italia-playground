@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-italia-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francesco Zaia <francesco.zaia@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-italia": "^0.3.1",
+    "http-server": "^0.11.1"
+  }
+}
