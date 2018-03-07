@@ -5,6 +5,7 @@
 * Clone the repo: `git clone https://github.com/italia/bootstrap-italia-playground.git`
 * Install dependencies: `npm install`
 * Run a local server: `npm start`
+* Point a browser to: `http://http://127.0.0.1:8080/`
 
 ## What's included
 
