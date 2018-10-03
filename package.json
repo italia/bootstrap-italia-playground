@@ -7,7 +7,7 @@
     "start": "http-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Francesco Zaia <francesco.zaia@gmail.com>",
+  "author": "Francesco Zaia",
   "license": "ISC",
   "devDependencies": {
     "bootstrap-italia": "^0.3.1",
