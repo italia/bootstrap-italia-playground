@@ -3,8 +3,8 @@
 ## Getting started
 
 * Clone the repo: `git clone https://github.com/italia/bootstrap-italia-playground.git`
-* Install dependencies: `npm install`
-* Run a local server: `npm start`
+* Install dependencies: `yarn install`
+* Run a local server: `yarn start`
 * Point a browser to: `http://http://127.0.0.1:8080/`
 
 ## What's included
@@ -15,7 +15,6 @@ You'll find a plain HTML page linking empty CSS and JS files to enable styling. 
 bootstrap-italia-playground/
 │   index.html          # main html file
 ├── css/
-│   ├── docs.min.css    # a minified library used to style header and footer
 │   ├── main.css        # working CSS file
 └── js/
     └── main.js         # working JS file

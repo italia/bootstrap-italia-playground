@@ -15,14 +15,6 @@
   <!-- Bootstrap core CSS -->
   <link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">
 
-
-  <!-- Icon Font CSS -->
-  <link href="/node_modules/bootstrap-italia/dist/css/italia-icon-font.css" rel="stylesheet">
-
-  <!-- Documentation extras -->
-
-  <link href="/css/docs.min.css" rel="stylesheet">
-
   <!-- Main style -->
 
   <link href="/css/main.css" rel="stylesheet">
@@ -60,123 +52,354 @@
 
 </head>
 <body>
-<a id="skippy" class="sr-only sr-only-focusable" href="#content">
-  <div class="container">
-    <span class="skiplink-text">Skip to main content</span>
-  </div>
-</a>
 
-<nav class="navbar-institutional navbar navbar-expand-lg navbar-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsTop"
-          aria-controls="navbarsTop" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div>
-    <a class="navbar-brand" href="http://www.agid.gov.it/">AgID</a>
-    <span class="navbar-brand text-white"> + </span>
-    <a class="navbar-brand" href="https://teamdigitale.governo.it/">Team <span class="d-none d-lg-inline">per la Trasformazione </span>Digitale</a>
-  </div>
-  <div class="collapse navbar-collapse" id="navbarsTop">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item nav-item-w-divider">
-        <a class="nav-link" href="https://pianotriennale-ict.italia.it/">Piano Triennale</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://developers.italia.it/">Developers</a>
-      </li>
-      <li class="nav-item nav-item-w-divider">
-        <a class="nav-link" href="http://designers.italia.it/">Designers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://forum.italia.it/">Forum</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://docs.developers.italia.it/">Docs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/italia/">GitHub</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<header class="navbar-main navbar navbar-dark bd-navbar">
-  <div class="container">
-    <a class="navbar-brand py-2" href="/" aria-label="Bootstrap Italia Homepage" title="Bootstrap Italia Homepage">
-      <div class="d-flex flex-row">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 74" height="48">
-          <g fill="#FFF">
-            <path d="M31.799 71.9V15.7h15.1V72h-15.1zM91.099 28.5h-13.8v23.1c0 2.3.1 3.8.2 4.8.1.9.5 1.7 1.2 2.4s1.8 1 3.3 1l8.6-.2.7 12c-5 1.1-8.9 1.7-11.5 1.7-6.8 0-11.4-1.5-13.8-4.6-2.5-3-3.7-8.6-3.7-16.8V0h15.1v15.6h13.8v12.9zM9.099 32.8c-2.6 0-4.8-.9-6.5-2.7s-2.6-4-2.6-6.6.9-4.8 2.5-6.6c1.7-1.8 3.9-2.6 6.5-2.6s4.8.9 6.5 2.7 2.5 4 2.5 6.7-.8 4.8-2.5 6.6c-1.6 1.6-3.7 2.5-6.4 2.5z"></path>
-          </g>
-        </svg>
-        <div class="d-flex flex-column pl-3 pl-sm-4">
-          <h1 class="bd-logo-title">Bootstrap Italia</h1>
-          <h2 class="bd-logo-subtitle">Il tema Bootstrap 4 per <span class="d-none d-sm-inline">lo sviluppo di applicazioni web per </span>la
-            PA</h2>
+<div class="it-header-wrapper">
+  <div class="it-header-slim-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="it-header-slim-wrapper-content">
+            <a class="d-none d-lg-block navbar-brand" href="#">Ente appartenenza/Owner</a>
+            <div class="nav-mobile">
+              <nav>
+                <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu-principale" role="button" aria-expanded="false" aria-controls="menu-principale">
+                  <span>Ente appartenenza/Owner</span>
+                  <svg class="icon">
+                    <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+                  </svg>
+                </a>
+                <div class="link-list-wrapper collapse" id="menu-principale">
+                  <ul class="link-list">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2 Active</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="header-slim-right-zone">
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                  <span>ITA</span>
+                  <svg class="icon d-none d-lg-block">
+                    <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+                  </svg>
+                </a>
+                <div class="dropdown-menu">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list">
+                          <li><a class="list-item" href="#"><span>ITA</span></a></li>
+                          <li><a class="list-item" href="#"><span>ENG</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="it-access-top-wrapper">
+                <button class="btn btn-primary btn-sm" href="#" type="button">Accedi</button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </a>
-
-
-    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-      <li class="nav-item pr-2">
-        <a title="Download" class="nav-link d-flex align-items-center"
-           href="https://github.com/italia/bootstrap-italia/releases/download/0.3.0/bootstrap-italia.zip"
-           aria-label="Download">
-          <i class="it-download"></i>
-        </a>
-      </li>
-      <li class="nav-item pr-2">
-        <a title="GitHub" class="nav-link d-flex align-items-center" href="https://github.com/italia/bootstrap-italia/"
-           target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <i class="it-github"></i>
-        </a>
-      </li>
-    </ul>
-
-
-  </div>
-</header>
-
-
-<main class="container my-5 text-center">
-  <h1>HELP ME!</h1>
-</main>
-
-
-<footer class="bd-footer text-muted">
-  <div class="container">
-    <div class="d-flex justify-content-between align-items-center py-4">
-      <div class="d-flex">
-        <div class="px-2 team-logo--icon">
-          <img src="/img/logo-team-digitale.svg" alt="Team per la Trasformazione Digitale">
-        </div>
-        <div class="px-2 border-white border-left team-logo--text text-white">Team per la Trasformazione Digitale</div>
-      </div>
-      <div>
-      <span class="text-white">
-        <span class="d-none d-sm-inline">Seguici su: &nbsp;</span>
-        <a class="text-white" href="https://twitter.com/teamdigitaleIT" target="_blank"><i class="it-twitter"></i></a>
-        <a class="text-white" href="https://medium.com/team-per-la-trasformazione-digitale" target="_blank"><i
-                class="it-medium"></i></a>
-        <a class="text-white" href="https://www.linkedin.com/company/teamdigitale" target="_blank"><i
-                class="it-linkedin"></i></a>
-        <a class="text-white" href="https://www.youtube.com/channel/UCwOMMmrMXiktlvKXx4vHJ-g/" target="_blank"><i
-                class="it-youtube"></i></a>
-      </span>
       </div>
     </div>
-    <div class="row py-4 border-white border-top">
-      <ul class="col list-inline small">
-        <li class="list-inline-item">
-          <a href="https://developers.italia.it//it/privacy-policy/" class="small-prints">Privacy Policy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://developers.italia.it//it/note-legali/" class="small-prints">Note Legali</a>
-        </li>
-        <!--<li class="list-inline-item">
-          <a href="/docs/informazioni/" class="small-prints">Informazioni</a>
-        </li>-->
+  </div>
+  <div class="it-nav-wrapper">
+    <div class="it-header-center-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="it-header-center-content-wrapper">
+              <div class="it-brand-wrapper">
+                <a href="#">
+                  <svg class="icon">
+                    <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-code-circle"></use>
+                  </svg>
+                  <div class="it-brand-text">
+                    <h2 class="no_toc">Lorem Ipsum</h2>
+                    <h3 class="no_toc d-none d-md-block">Inserire qui la tag line</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="it-right-zone">
+                <div class="it-socials d-none d-md-flex">
+                  <span>Seguici su</span>
+                  <ul>
+                    <li>
+                      <a href="#" aria-label="Facebook" target="_blank">
+                        <svg class="icon">
+                          <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" aria-label="Github" target="_blank">
+                        <svg class="icon">
+                          <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-github"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" aria-label="Twitter">
+                        <svg class="icon">
+                          <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="it-search-wrapper">
+                  <span class="d-none d-md-block">Cerca</span>
+                  <a class="search-link rounded-icon" href="#" aria-label="Cerca">
+                    <svg class="icon">
+                      <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="it-header-navbar-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <nav class="navbar navbar-expand-lg has-megamenu">
+              <button class="custom-navbar-toggler" type="button" aria-controls="nav10" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav10">
+                <svg class="icon">
+                  <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-burger"></use>
+                </svg>
+              </button>
+              <div class="navbar-collapsable" id="nav10">
+                <div class="overlay"></div>
+                <div class="close-div sr-only">
+                  <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+                </div>
+                <div class="menu-wrapper">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link active" href="#"><span>link 1 attivo</span><span class="sr-only">current</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span>link 2</span></a></li>
+                    <li class="nav-item"><a class="nav-link disabled" href="#"><span>link 3 disabilitato</span></a></li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                        <span>Esempio di Dropdown</span>
+                        <svg class="icon icon-xs">
+                          <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+                        </svg>
+                      </a>
+                      <div class="dropdown-menu">
+                        <div class="link-list-wrapper">
+                          <ul class="link-list">
+                            <li>
+                              <h3 class="no_toc" id="heading">Heading</h3>
+                            </li>
+                            <li><a class="list-item" href="#"><span>Link list 1</span></a></li>
+                            <li><a class="list-item" href="#"><span>Link list 2</span></a></li>
+                            <li><a class="list-item" href="#"><span>Link list 3</span></a></li>
+                            <li><span class="divider"></span></li>
+                            <li><a class="list-item" href="#"><span>Link list 4</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown megamenu">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                        <span>Esempio di Megamenu</span>
+                        <svg class="icon icon-xs">
+                          <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+                        </svg>
+                      </a>
+                      <div class="dropdown-menu">
+                        <div class="row">
+                          <div class="col-12 col-lg-4">
+                            <div class="link-list-wrapper">
+                              <ul class="link-list">
+                                <li>
+                                  <h3 class="no_toc">Heading 1</h3>
+                                </li>
+                                <li><a class="list-item" href="#"><span>Link list 1 </span></a></li>
+                                <li><a class="list-item" href="#"><span>Link list 2 </span></a></li>
+                                <li><a class="list-item" href="#"><span>Link list 3 </span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-4">
+                            <div class="link-list-wrapper">
+                              <ul class="link-list">
+                                <li>
+                                  <h3 class="no_toc">Heading 2</h3>
+                                </li>
+                                <li><a class="list-item" href="#"><span>Link list 1 </span></a></li>
+                                <li><a class="list-item" href="#"><span>Link list 2 </span></a></li>
+                                <li><a class="list-item" href="#"><span>Link list 3 </span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-4">
+                            <div class="link-list-wrapper">
+                              <ul class="link-list">
+                                <li>
+                                  <h3 class="no_toc">Heading 3</h3>
+                                </li>
+                                <li><a class="list-item" href="#"><span>Link list 1 </span></a></li>
+                                <li><a class="list-item" href="#"><span>Link list 2 </span></a></li>
+                                <li><a class="list-item" href="#"><span>Link list 3</span></a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-4">
+  <h1>Lorem Ipsum</h1>
+  <p>Ab illo tempore, ab est sed immemorabili.<br/>
+    Ullamco laboris nisi ut aliquid ex ea commodi consequat.<br/>
+    Quis aute iure reprehenderit in voluptate velit esse.<br/>
+    Petierunt uti sibi concilium totius Galliae in diem certam indicere.</p>
+  <p>Pellentesque habitant morbi tristique senectus et netus.</p>
+</div>
+
+
+<footer class="it-footer">
+  <div class="it-footer-main">
+    <div class="container">
+      <section>
+        <div class="row clearfix">
+          <div class="col-sm-12">
+            <div class="it-brand-wrapper">
+              <a href="#">
+                <svg class="icon">
+                  <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-code-circle"></use>
+                </svg>
+                <div class="it-brand-text">
+                  <h2 class="no_toc">Lorem Ipsum</h2>
+                  <h3 class="no_toc d-none d-md-block">Inserire qui la tag line</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 pb-2">
+            <h4>
+              <a href="#" title="Vai alla pagina: Amministrazione">Amministrazione</a>
+            </h4>
+            <div class="link-list-wrapper">
+              <ul class="footer-list link-list clearfix">
+                <li><a class="list-item" href="#" title="Vai alla pagina: Giunta e consiglio">Giunta e consiglio</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Aree di competenza">Aree di competenza</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Dipendenti">Dipendenti</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Luoghi">Luoghi</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Associazioni e società partecipate">Associazioni e società partecipate</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 pb-2">
+            <h4>
+              <a href="#" title="Vai alla pagina: Servizi">Servizi</a>
+            </h4>
+            <div class="link-list-wrapper">
+              <ul class="footer-list link-list clearfix">
+                <li><a class="list-item" href="#" title="Vai alla pagina: Pagamenti">Pagamenti</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Sostegno">Sostegno</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Domande e iscrizioni">Domande e iscrizioni</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Segnalazioni">Segnalazioni</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Autorizzazioni e concessioni">Autorizzazioni e concessioni</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Certificati e dichiarazioni">Certificati e dichiarazioni</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 pb-2">
+            <h4>
+              <a href="#" title="Vai alla pagina: Novità">Novità</a>
+            </h4>
+            <div class="link-list-wrapper">
+              <ul class="footer-list link-list clearfix">
+                <li><a class="list-item" href="#" title="Vai alla pagina: Notizie">Notizie</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Eventi">Eventi</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Comunicati stampa">Comunicati stampa</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <h4>
+              <a href="#" title="Vai alla pagina: Documenti">Documenti</a>
+            </h4>
+            <div class="link-list-wrapper">
+              <ul class="footer-list link-list clearfix">
+                <li><a class="list-item" href="#" title="Vai alla pagina: Progetti e attività">Progetti e attività</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Delibere, determine e ordinanze">Delibere, determine e ordinanze</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Bandi">Bandi</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Concorsi">Concorsi</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: Albo pretorio">Albo pretorio</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-4 border-white border-top">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 pb-2">
+            <h4><a href="#" title="Vai alla pagina: Contatti">Contatti</a></h4>
+            <p>
+              <strong>Comune di Lorem Ipsum</strong><br> Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA: 000000000
+            </p>
+            <div class="link-list-wrapper">
+              <ul class="footer-list link-list clearfix">
+                <li><a class="list-item" href="#" title="Vai alla pagina: Posta Elettronica Certificata">Posta Elettronica Certificata</a></li>
+                <li><a class="list-item" href="#" title="Vai alla pagina: URP - Ufficio Relazioni con il Pubblico">URP - Ufficio Relazioni con il Pubblico</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 pb-2">
+            <h4><a href="#" title="Vai alla pagina: Lorem Ipsum">Lorem Ipsum</a></h4>
+          </div>
+          <div class="col-lg-4 col-md-4 pb-2">
+            <div class="pb-2">
+              <h4><a href="#" title="Vai alla pagina: Seguici su" class="">Seguici su</a></h4>
+              <ul class="list-inline text-left social">
+                <li class="list-inline-item"><a class="p-2 text-white" href="#" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-designers-italia"></use></svg><span class="sr-only">Designers Italia</span></a></li>
+                <li class="list-inline-item"><a class="p-2 text-white" href="#" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-twitter"></use></svg><span class="sr-only">Twitter</span></a></li>
+                <li class="list-inline-item"><a class="p-2 text-white" href="#" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-medium"></use></svg><span class="sr-only">Medium</span></a></li>
+                <li class="list-inline-item"><a class="p-2 text-white" href="#" target="_blank"><svg class="icon icon-sm icon-white align-top"><use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-behance"></use></svg><span class="sr-only">Behance</span></a></li>
+              </ul>
+            </div>
+            <div class="pb-2">
+              <h4><a href="#" title="Vai alla pagina: Newsletter">Newsletter</a></h4>
+              <p>Form Newsletter</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="it-footer-small-prints clearfix">
+    <div class="container">
+      <h3 class="sr-only">Sezione Link Utili</h3>
+      <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+        <li class="list-inline-item"><a href="#" title="Note Legali">Media policy</a></li>
+        <li class="list-inline-item"><a href="#" title="Note Legali">Note legali</a></li>
+        <li class="list-inline-item"><a href="#" title="Privacy-Cookies">Privacy policy</a></li>
+        <li class="list-inline-item"><a href="#" title="Mappa del sito">Mappa del sito</a> </li>
       </ul>
     </div>
   </div>
