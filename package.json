@@ -8,9 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francesco Zaia",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap-italia": "^1.0.1"
+    "bootstrap-italia": "^1.2.1"
   },
   "devDependencies": {
     "http-server": "^0.11.1"

@@ -7,28 +7,27 @@ async@^1.5.2:
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
   integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
 
-bootstrap-italia@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-1.0.1.tgz#a2df67a9edcc4c743e896735951becb12aaa1b27"
-  integrity sha512-SNOrPw/lc7OJbo/y14sjSuVsQctjvJqJcJRSrZA18S5dR3uDXm9AJyZ3RgWyA9K2J8OLA1aR6GVaa+yp/YUF1A==
+bootstrap-italia@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-1.2.1.tgz#5d65cf6d84fe893c24b961026973929191852c89"
+  integrity sha512-sOs41KNH1T0sejKSjOlsdT3EA3kYq4gxv8Ua4V45Fo3tCsDgkyHzFWbDhmrIioZz9qVZLgunH24rWCiI8Y+NjQ==
   dependencies:
-    bootstrap "4.2.1"
-    bootstrap-select "^1.13.5"
-    jquery "^3.3.1"
-    jquery.easing "^1.4.1"
-    owl.carousel "^2.3.4"
-    popper.js "^1.14.6"
-    svgxuse "^1.2.6"
+    bootstrap "4.3.1"
+    bootstrap-select "1.13.5"
+    jquery "3.3.1"
+    owl.carousel "2.3.4"
+    popper.js "1.14.7"
+    svgxuse "1.2.6"
 
-bootstrap-select@^1.13.5:
+bootstrap-select@1.13.5:
   version "1.13.5"
   resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.5.tgz#12f000b25a95ed642fe371ae9e311d3afbb8c53f"
   integrity sha512-1uYsYLB4FvGdwM6qzIfTxp6sP5gDqjPgWNHJztBfYUTIo1GUYG5zzmMVWiJvdxJlsvBXZ9AObmeZdzi0eg2jaA==
 
-bootstrap@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.2.1.tgz#8f8bdca024dbf0e8644da32e918c8a03a90a5757"
-  integrity sha512-tt/7vIv3Gm2mnd/WeDx36nfGGHleil0Wg8IeB7eMrVkY0fZ5iTaBisSh8oNANc2IBsCc6vCgCNTIM/IEN0+50Q==
+bootstrap@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha512-rXqOmH1VilAt2DyPzluTi2blhk17bO7ef+zLLPlWvG494pDxcM234pJ8wTc/6R40UWizAIIMgxjvxZg5kmsbag==
 
 colors@1.0.3:
   version "1.0.3"
@@ -104,12 +103,7 @@ http-server@^0.11.1:
     portfinder "^1.0.13"
     union "~0.4.3"
 
-jquery.easing@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/jquery.easing/-/jquery.easing-1.4.1.tgz#47982c5836bd758fd48494923c4a101ef6e93e3b"
-  integrity sha1-R5gsWDa9dY/UhJSSPEoQHvbpPjs=
-
-jquery@>=1.8.3, jquery@^3.3.1:
+jquery@3.3.1, jquery@>=1.8.3:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
   integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
@@ -159,14 +153,14 @@ optimist@0.6.x:
     minimist "~0.0.1"
     wordwrap "~0.0.2"
 
-owl.carousel@^2.3.4:
+owl.carousel@2.3.4:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/owl.carousel/-/owl.carousel-2.3.4.tgz#6c53dc8d24304b790e4f27a1dc4a655e973ccdc9"
   integrity sha512-JaDss9+feAvEW8KZppPSpllfposEzQiW+Ytt/Xm5t/3CTJ7YVmkh6RkWixoA2yXk2boIwedYxOvrrppIGzru9A==
   dependencies:
     jquery ">=1.8.3"
 
-popper.js@^1.14.6:
+popper.js@1.14.7:
   version "1.14.7"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.7.tgz#e31ec06cfac6a97a53280c3e55e4e0c860e7738e"
   integrity sha512-4q1hNvoUre/8srWsH7hnoSJ5xVmIL4qgz+s4qf2TnJIMyZFUFMGH+9vE7mXynAlHSZ/NdTmmow86muD0myUkVQ==
@@ -190,7 +184,7 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-svgxuse@^1.2.6:
+svgxuse@1.2.6:
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/svgxuse/-/svgxuse-1.2.6.tgz#d6251edd07a75cb28618e0c23e8d4db64936d6be"
   integrity sha512-0KC0I24LDskC2vaVjUQfFmdtKJk8wFwMYOjCci0HlhBRSc0F86dZRqNBHf6BoS5bibQ7chgnBQWyJCTYkzVuSA==

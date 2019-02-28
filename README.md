@@ -1,5 +1,7 @@
 # Bootstrap Italia Playground
 
+This little project is the easiest way to start playing with Bootstrap Italia.
+
 ## Getting started
 
 * Clone the repo: `git clone https://github.com/italia/bootstrap-italia-playground.git`
