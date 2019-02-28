@@ -24,5 +24,5 @@ bootstrap-italia-playground/
 
 ## Reference
 
-Bootstrap Italia documentation is hosted on GitHub pages at https://italia.github.io/bootstrap-italia/docs/.
+Bootstrap Italia documentation is hosted on GitHub pages at https://italia.github.io/bootstrap-italia/.
 
