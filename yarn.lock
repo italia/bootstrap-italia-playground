@@ -7,22 +7,22 @@ async@^1.5.2:
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
   integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
 
-bootstrap-italia@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-1.2.1.tgz#5d65cf6d84fe893c24b961026973929191852c89"
-  integrity sha512-sOs41KNH1T0sejKSjOlsdT3EA3kYq4gxv8Ua4V45Fo3tCsDgkyHzFWbDhmrIioZz9qVZLgunH24rWCiI8Y+NjQ==
+bootstrap-italia@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-1.3.5.tgz#7db863c628b1438d059cae273a3faa961ea40a4e"
+  integrity sha512-vfniUXXx9iH0NvzzGorLwf2T8Yfqzv6+SvrVvNNl5TtV06LT/OY/AIMXiSxJPEfkHkKpdvNDU9M6MEERd3Tg5Q==
   dependencies:
     bootstrap "4.3.1"
-    bootstrap-select "1.13.5"
-    jquery "3.3.1"
+    bootstrap-select "1.13.10"
+    jquery "^3.4.1"
     owl.carousel "2.3.4"
     popper.js "1.14.7"
     svgxuse "1.2.6"
 
-bootstrap-select@1.13.5:
-  version "1.13.5"
-  resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.5.tgz#12f000b25a95ed642fe371ae9e311d3afbb8c53f"
-  integrity sha512-1uYsYLB4FvGdwM6qzIfTxp6sP5gDqjPgWNHJztBfYUTIo1GUYG5zzmMVWiJvdxJlsvBXZ9AObmeZdzi0eg2jaA==
+bootstrap-select@1.13.10:
+  version "1.13.10"
+  resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.10.tgz#b0cf57f8d448bc0488faba04ecaa2f4c5216e144"
+  integrity sha512-mwfyd+VWHY8wDN4je4Y8PPEaOAzDPUz95z5F5zxzlIqebqxtbrujclFWLrhkVOyETpsgZCL1rsfyEnHpAugtGg==
 
 bootstrap@4.3.1:
   version "4.3.1"
@@ -103,10 +103,15 @@ http-server@^0.11.1:
     portfinder "^1.0.13"
     union "~0.4.3"
 
-jquery@3.3.1, jquery@>=1.8.3:
+jquery@>=1.8.3:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
   integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
+
+jquery@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
 
 mime@^1.6.0:
   version "1.6.0"
