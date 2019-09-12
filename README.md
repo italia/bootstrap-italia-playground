@@ -2,6 +2,8 @@
 
 Questo piccolo progetto è il modo più semplice per iniziare a giocare con [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
+<img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
+
 ## Cos'è incluso
 
 Troverai una semplice pagina HTML con i riferimenti ai file di Bootstrap Italia e con file CSS e JS vuoti per iniziare.

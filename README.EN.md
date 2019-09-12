@@ -2,6 +2,8 @@
 
 This little project is the easiest way to start playing with [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
+<img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
+
 ## What's included
 
 You'll find a plain HTML page linking Bootstrap Italia files and empty CSS and JS files to enable styling.
