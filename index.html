@@ -10,11 +10,13 @@
 
   <title>Bootstrap Italia Playground</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap Italia CSS -->
   <link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">
 
-  <!-- Main style -->
+  <!-- Bootstrap Italia custom CSS -->
+  <!-- <link href="/css/compiled/bootstrap-italia-custom.min.css" rel="stylesheet"> -->
 
+  <!-- App styles -->
   <link href="/css/main.css" rel="stylesheet">
 
   <!-- Favicons -->
@@ -272,8 +274,38 @@
     Quis aute iure reprehenderit in voluptate velit esse.<br/>
     Petierunt uti sibi concilium totius Galliae in diem certam indicere.</p>
   <p>Pellentesque habitant morbi tristique senectus et netus.</p>
+  <h2>Esempio di Card</h2>
+  <div class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <!--start card-->
+          <div class="card-wrapper card-space">
+            <div class="card card-bg card-big">
+              <div class="card-body">
+                <div class="top-icon">
+                  <svg class="icon">
+                    <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-card"></use>
+                  </svg>
+                </div>
+                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a class="read-more" href="#">
+                  <span class="text">Leggi di più</span>
+                  <svg class="icon">
+                    <use xlink:href="/node_modules/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--end card-->
+        </div>
+      </div>
+    </div>
+  </div>
   <h2>Esempio di Form</h2>
-  <div class="mt-5">
+  <div class="my-5">
     <div class="form-row">
       <div class="form-group col-md-6">
         <input type="email" class="form-control" id="inputEmail4" placeholder="inserisci il tuo indirizzo email">
@@ -489,6 +521,7 @@
 <!-- alternatively, just use the bundled version of the library -->
 <!-- <script src="/node_modules/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"></script>-->
 
+<!-- App scripts -->
 <script src="/js/main.js"></script>
 
 
