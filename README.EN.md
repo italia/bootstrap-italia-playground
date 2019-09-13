@@ -22,7 +22,7 @@ bootstrap-italia-playground/
 * Clone the repo: `git clone https://github.com/italia/bootstrap-italia-playground.git`
 * Install dependencies: `yarn install`
 * Run a local server: `yarn start`
-* Point a browser to: `http://http://127.0.0.1:8080/`
+* Point a browser to: `http://127.0.0.1:8080/`
 
 ## Updating Bootstrap Italia colours
 
@@ -35,6 +35,6 @@ To build a customised version of the library:
 
 Just run `yarn start` again: everything should be red! :)
 
-## Riferimento
+## Reference
 
-La documentazione di Bootstrap Italia è presente su GitHub pages all'indirizzo https://italia.github.io/bootstrap-italia/docs/come-iniziare/personalizzazione-della-libreria/.
+Bootstrap Italia documentation is hosted on GitHub pages at https://italia.github.io/bootstrap-italia/docs/come-iniziare/personalizzazione-della-libreria/ (in italian).
