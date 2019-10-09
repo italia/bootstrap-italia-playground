@@ -26,7 +26,7 @@ bootstrap-italia-playground/
 
 ## Aggiornare i colori di Bootstrap Italia
 
-Per aggiornare i colori di Bootstrap Italia, fai riferimento al file `scss/main.scss`, dove il colore `$primary` è sovrascritto.  
+Per aggiornare i colori di Bootstrap Italia, fai riferimento al file `scss/bootstrap-italia-custom.scss`, dove il colore `$primary` è sovrascritto nelle sue componenti.
 Per ottenere una versione personalizzata della libreria:
 
 * Compila la libreria Bootstrap Italia personalizzata con `yarn buildCSS`, che creerà dei file nella cartella `css/compiled`
