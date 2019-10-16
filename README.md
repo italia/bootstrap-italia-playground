@@ -1,6 +1,6 @@
 # Bootstrap Italia Playground
 
-Questo piccolo progetto è il modo più semplice per iniziare a giocare con [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
+Questo progetto è il modo più semplice per iniziare a giocare con [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
 <img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
 
@@ -33,7 +33,7 @@ Per ottenere una versione personalizzata della libreria:
 * Nel file `index.html` commenta il file CSS della libreria Bootstrap Italia originale `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Nel file `index.html` decommenta il file CSS delle libreria Bootstrap Italia personalizzata `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 
-Lanciando di nuovo il sito con `yarn start`, il sito dovrebbe essere rosso! :)
+Lanciando di nuovo il sito con `yarn start`, il sito dovrebbe diventare rosso! 😉
 
 ## Riferimento
 
