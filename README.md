@@ -1,6 +1,6 @@
 # Bootstrap Italia Playground
 
-Questo progetto è il modo più semplice per iniziare a giocare con [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
+Questo progetto è il modo più semplice per iniziare ad usare con [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
 <img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
 
