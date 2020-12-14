@@ -1,6 +1,6 @@
 # Bootstrap Italia Playground
 
-Questo progetto è il modo più semplice per iniziare ad usare con [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
+Questo progetto è il modo più semplice per iniziare ad usare [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
 <img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
 
@@ -17,16 +17,16 @@ bootstrap-italia-playground/
     └── main.js         # working JS file
 ```
 
-## Come lanciare l'ambiente il locale
+## Come lanciare l'ambiente in locale
 
 * Clona o scarica il repository: `git clone https://github.com/italia/bootstrap-italia-playground.git`
 * Installa le dipendenze: `yarn install`
 * Lancia un server locale: `yarn start`
 * Vai all'indirizzo: `http://127.0.0.1:8080/` e continua a leggere.
 
-## Aggiornare i colori di Bootstrap Italia
+## Personalizzare i colori di Bootstrap Italia
 
-Per aggiornare i colori di Bootstrap Italia, fai riferimento al file `scss/bootstrap-italia-custom.scss`, dove il colore `$primary` è sovrascritto nelle sue componenti.
+Per personalizzare i colori di Bootstrap Italia, fai riferimento al file `scss/bootstrap-italia-custom.scss`, dove il colore `$primary` è sovrascritto nelle sue componenti.
 Per ottenere una versione personalizzata della libreria:
 
 * Compila la libreria Bootstrap Italia personalizzata con: `yarn buildCSS`
