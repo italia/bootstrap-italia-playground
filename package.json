@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "buildCSS": "node-sass scss/bootstrap-italia-custom.scss css/compiled/bootstrap-italia-custom.min.css --source-map true --output-style compressed",
+    "buildCSS": "sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
     "start": "http-server .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francesco Zaia",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap-italia": "^1.3.5"
+    "bootstrap-italia": "^1.5.1"
   },
   "devDependencies": {
-    "http-server": "^0.11.1",
-    "node-sass": "^4.12.0"
+    "http-server": "^14.1.0",
+    "sass": "^1.32.6"
   }
 }
