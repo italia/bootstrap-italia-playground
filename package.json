@@ -11,7 +11,7 @@
   "author": "Francesco Zaia",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap-italia": "^1.5.1"
+    "bootstrap": "^5.1.3"
   },
   "devDependencies": {
     "http-server": "^14.1.0",
