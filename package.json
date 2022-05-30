@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "buildCSS": "sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
-    "start": "http-server .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "mkdir -p ./deps && cp -R ./node_modules/bootstrap-italia/dist/ ./deps/bootstrap-italia && cp -R ./node_modules/jquery/dist/ ./deps/jquery && cp -R ./node_modules/popper.js/dist/ ./deps/popper.js",
+    "build": "yarn prepare && sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
+    "start": "yarn prepare && http-server ."
   },
   "author": "Francesco Zaia",
   "license": "BSD-3-Clause",
