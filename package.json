@@ -1,14 +1,14 @@
 {
   "name": "bootstrap-italia-playground",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "The easiest way to start playing with Bootstrap Italia.",
   "main": "index.js",
   "scripts": {
     "prepare": "git submodule init && cd bootstrap-italia-next && npm i && npm run build && cd ..",
     "build": "yarn prepare && sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
     "start": "http-server ."
   },
-  "author": "Francesco Zaia",
+  "author": "Presidenza del Consiglio dei Ministri",
   "license": "BSD-3-Clause",
   "dependencies": {
     "bootstrap": "^5.1.3"
