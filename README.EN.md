@@ -30,7 +30,7 @@ To update Bootstrap Italia primary colour, please refer to the `scss/main.scss` 
 To build a customised version of the library:
 
 * Build a custom Bootstrap Italia CSS file with `yarn build`
-* Comment out original Bootstrap Italia CSS `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
+* Comment out original Bootstrap Italia CSS `<link href="./deps/bootstrap-italia/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Uncomment Bootstrap Italia custom CSS `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 
 Just run `yarn start` again: everything should be red! :)

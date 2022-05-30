@@ -31,7 +31,7 @@ Per ottenere una versione personalizzata della libreria:
 
 * Compila la libreria Bootstrap Italia personalizzata con: `yarn build`
 * La compilazione crea dei file nella cartella `css/compiled` che vanno referenziati nell file `index.html`
-* Nel file `index.html` commenta il file CSS della libreria Bootstrap Italia originale `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
+* Nel file `index.html` commenta il file CSS della libreria Bootstrap Italia originale `<link href="./deps/bootstrap-italia/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Nel file `index.html` decommenta il file CSS delle libreria Bootstrap Italia personalizzata `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 
 Lanciando di nuovo il sito con `yarn start`, il sito dovrebbe diventare rosso! 😉
