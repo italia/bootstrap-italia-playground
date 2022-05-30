@@ -20,7 +20,7 @@ bootstrap-italia-playground/
 ## Come lanciare l'ambiente in locale
 
 * Clona o scarica il repository: `git clone https://github.com/italia/bootstrap-italia-playground.git`
-* Installa le dipendenze: `yarn install`
+* Installa le dipendenze: `yarn`
 * Lancia un server locale: `yarn start`
 * Vai all'indirizzo: `http://127.0.0.1:8080/` e continua a leggere.
 
