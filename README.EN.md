@@ -29,7 +29,7 @@ bootstrap-italia-playground/
 To update Bootstrap Italia primary colour, please refer to the `scss/main.scss` file, where `$primary` colour variable is overridden.  
 To build a customised version of the library:
 
-* Build a custom Bootstrap Italia CSS file with `yarn buildCSS`
+* Build a custom Bootstrap Italia CSS file with `yarn build`
 * Comment out original Bootstrap Italia CSS `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Uncomment Bootstrap Italia custom CSS `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 

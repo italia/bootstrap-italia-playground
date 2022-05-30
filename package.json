@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "buildCSS": "sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
-    "start": "http-server .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "git submodule init && cd bootstrap-italia-next && npm i && npm run build && cd ..",
+    "build": "yarn prepare && sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
+    "start": "http-server ."
   },
   "author": "Francesco Zaia",
   "license": "BSD-3-Clause",

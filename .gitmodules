@@ -1,0 +1,3 @@
+[submodule "bootstrap-italia-next"]
+    path = bootstrap-italia-next
+    url = https://github.com/italia/bootstrap-italia-next

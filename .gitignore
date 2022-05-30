@@ -3,3 +3,6 @@ node_modules/
 
 # Compiled CSS
 css/compiled/
+
+# BSI Next
+bootstrap-italia-next
