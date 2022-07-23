@@ -4,14 +4,13 @@
   "description": "The easiest way to start playing with Bootstrap Italia.",
   "main": "index.js",
   "scripts": {
-    "prepare": "git submodule init && cd bootstrap-italia-next && npm i && npm run build && cd ..",
-    "build": "yarn prepare && sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
+    "build": "sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
     "start": "http-server ."
   },
   "author": "Presidenza del Consiglio dei Ministri",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap-italia": "2.0.1"
   },
   "devDependencies": {
     "http-server": "^14.1.0",

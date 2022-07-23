@@ -19,8 +19,8 @@ bootstrap-italia-playground/
 
 ## Getting started
 
-* Clone the repo: `git clone https://github.com/italia/bootstrap-italia-playground.git`
 * Install dependencies: `yarn`
+* Build the app: `yarn build`
 * Run a local server: `yarn start`
 * Point a browser to: `http://127.0.0.1:8080/`
 
