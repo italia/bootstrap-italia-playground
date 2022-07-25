@@ -2,7 +2,9 @@
 
 Questo progetto è il modo più semplice per iniziare ad usare [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
-<img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
+Il playground per la vecchia versione di Bootstrap Italia è disponibile sul [branch 1.x](https://github.com/italia/bootstrap-italia-playground/tree/1.x).
+
+<img src="https://github.com/italia/bootstrap-italia-playground/blob/1.x/bootstrap-italia-playground.png?raw=true" width="800"> 
 
 ## Cos'è incluso
 
