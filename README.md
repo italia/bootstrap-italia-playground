@@ -1,8 +1,10 @@
-# Bootstrap Italia Playground
+# Bootstrap Italia Playground (versione 1.x)
 
 Questo progetto è il modo più semplice per iniziare ad usare [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
-<img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
+La preview è disponibile [qui](https://bootstrap-italia-playground-1.vercel.app/).
+
+<img src="https://github.com/italia/bootstrap-italia-playground/blob/1.x/bootstrap-italia-playground.png?raw=true" width="800"> 
 
 ## Cos'è incluso
 
