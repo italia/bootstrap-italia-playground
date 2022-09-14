@@ -10,10 +10,10 @@
   "author": "Presidenza del Consiglio dei Ministri",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap-italia": "2.0.1"
+    "bootstrap-italia": "2.0.4"
   },
   "devDependencies": {
     "http-server": "^14.1.0",
-    "sass": "^1.32.6"
+    "sass": "1.54.9"
   }
 }

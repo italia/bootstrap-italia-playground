@@ -58,10 +58,10 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-bootstrap-italia@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-2.0.1.tgz#03602b2ce2e89b301258c829dacecae364063490"
-  integrity sha512-X6VmIT6ByhiocgDomH76wRDBUNQzZdbcuf12/jf5Zg6+2UPHU4mtc7uCiBU7QeRudEZhTIirQxJHheNrNU81bg==
+bootstrap-italia@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-2.0.4.tgz#0fa0a4450072448853f93f7c47ddfaa5248c861f"
+  integrity sha512-9t+/eZ1pplDKGUWPoSvxQexKTwzUNn20I+/Du6MASSI1jTuapt/e9Fsz1Spj4grul0C17TY8G9SvstUOqI+T4w==
   dependencies:
     "@popperjs/core" "^2.11.2"
     "@splidejs/splide" "^3.6.12"
@@ -417,10 +417,10 @@ safe-buffer@5.1.2:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@^1.32.6:
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.0.tgz#24873673265e2a4fe3d3a997f714971db2fba1f4"
-  integrity sha512-C4zp79GCXZfK0yoHZg+GxF818/aclhp9F48XBu/+bm9vXEVAYov9iU3FBVRMq3Hx3OA4jfKL+p2K9180mEh0xQ==
+sass@1.54.9:
+  version "1.54.9"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.9.tgz#b05f14ed572869218d1a76961de60cd647221762"
+  integrity sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
