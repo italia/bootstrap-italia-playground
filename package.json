@@ -4,7 +4,8 @@
   "description": "The easiest way to start playing with Bootstrap Italia.",
   "main": "index.js",
   "scripts": {
-    "build": "sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
+    "vercel": "rm -rf ./bootstrap-italia && cp -r node_modules/bootstrap-italia/ ./bootstrap-italia",
+    "build": "yarn vercel && sass --load-path=. scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
     "start": "http-server ."
   },
   "author": "Presidenza del Consiglio dei Ministri",

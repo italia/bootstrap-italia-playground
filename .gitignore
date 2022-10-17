@@ -1,5 +1,6 @@
 # Dependency directories
 node_modules/
+bootstrap-italia/
 
 # Compiled CSS
 css/compiled/
