@@ -58,25 +58,25 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-bootstrap-italia@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-2.0.4.tgz#0fa0a4450072448853f93f7c47ddfaa5248c861f"
-  integrity sha512-9t+/eZ1pplDKGUWPoSvxQexKTwzUNn20I+/Du6MASSI1jTuapt/e9Fsz1Spj4grul0C17TY8G9SvstUOqI+T4w==
+bootstrap-italia@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-italia/-/bootstrap-italia-2.3.0.tgz#5bec5258a156f61b5ab64337d5226b8d071edbb9"
+  integrity sha512-wuaRcxXVKMfT0gwOquEtGEebDwx2jWst2sSzdFp0y64O3t0s+J44tasEvUL4rk3O3RJN/H/m6oNeY1iRgFNJHQ==
   dependencies:
     "@popperjs/core" "^2.11.2"
     "@splidejs/splide" "^3.6.12"
     accessible-autocomplete "^2.0.4"
     animejs "^3.2.1"
-    bootstrap "5.1.3"
+    bootstrap "^5.2.3"
     just-validate "^3.5.1"
     masonry-layout "^4.2.2"
     progressbar.js "^1.1.0"
     uuid "^8.3.2"
 
-bootstrap@5.1.3:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.1.3.tgz#ba081b0c130f810fa70900acbc1c6d3c28fa8f34"
-  integrity sha512-fcQztozJ8jToQWXxVuEyXWW+dSo8AiXWKwiSSrKWsRB/Qt+Ewwza+JWoLKiTuQLaEPhdNAJ7+Dosc9DOIqNy7Q==
+bootstrap@^5.2.3:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.3.tgz#54739f4414de121b9785c5da3c87b37ff008322b"
+  integrity sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ==
 
 braces@~3.0.2:
   version "3.0.2"
