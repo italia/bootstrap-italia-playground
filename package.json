@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "vercel": "rm -rf ./bootstrap-italia && cp -r node_modules/bootstrap-italia/ ./bootstrap-italia",
-    "build": "yarn vercel && sass --load-path=node_modules scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
+    "build": "npm run vercel && sass --load-path=node_modules scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
     "start": "http-server ."
   },
   "author": "Presidenza del Consiglio dei Ministri",

@@ -21,9 +21,9 @@ bootstrap-italia-playground/
 
 ## Come lanciare l'ambiente in locale
 
-* Installa le dipendenze: `yarn`
-* Compila l'applicazione: `yarn build`
-* Lancia un server locale: `yarn start`
+* Installa le dipendenze: `npm install`
+* Compila l'applicazione: `npm run build`
+* Lancia un server locale: `npm run start`
 * Vai all'indirizzo: `http://127.0.0.1:8080/` e continua a leggere.
 
 ## Personalizzare i colori di Bootstrap Italia
@@ -31,12 +31,12 @@ bootstrap-italia-playground/
 Per personalizzare i colori di Bootstrap Italia, fai riferimento al file `scss/bootstrap-italia-custom.scss`, dove il colore `$primary` è sovrascritto nelle sue componenti.
 Per ottenere una versione personalizzata della libreria:
 
-* Compila la libreria Bootstrap Italia personalizzata con: `yarn build`
+* Compila la libreria Bootstrap Italia personalizzata con: `npm run build`
 * La compilazione crea dei file nella cartella `css/compiled` che vanno referenziati nell file `index.html`
 * Nel file `index.html` commenta il file CSS della libreria Bootstrap Italia originale `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Nel file `index.html` decommenta il file CSS delle libreria Bootstrap Italia personalizzata `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 
-Lanciando di nuovo il sito con `yarn start`, il sito dovrebbe diventare rosso! 😉
+Lanciando di nuovo il sito con `npm run start`, il sito dovrebbe diventare rosso! 😉
 
 ## Riferimento
 

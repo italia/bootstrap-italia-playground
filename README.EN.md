@@ -19,9 +19,9 @@ bootstrap-italia-playground/
 
 ## Getting started
 
-* Install dependencies: `yarn`
-* Build the app: `yarn build`
-* Run a local server: `yarn start`
+* Install dependencies: `npm install`
+* Build the app: `npm run build`
+* Run a local server: `npm run start`
 * Point a browser to: `http://127.0.0.1:8080/`
 
 ## Updating Bootstrap Italia colours
@@ -29,11 +29,11 @@ bootstrap-italia-playground/
 To update Bootstrap Italia primary colour, please refer to the `scss/main.scss` file, where `$primary` colour variable is overridden.  
 To build a customised version of the library:
 
-* Build a custom Bootstrap Italia CSS file with `yarn build`
+* Build a custom Bootstrap Italia CSS file with `npm run build`
 * Comment out original Bootstrap Italia CSS `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Uncomment Bootstrap Italia custom CSS `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 
-Just run `yarn start` again: everything should be red! :)
+Just run `npm run start` again: everything should be red! :)
 
 ## Reference
 
