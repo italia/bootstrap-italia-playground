@@ -38,6 +38,24 @@ Per ottenere una versione personalizzata della libreria:
 
 Lanciando di nuovo il sito con `npm run start`, il sito dovrebbe diventare rosso! 😉
 
+## Cambiamenti dalla versione Bootstrap Italia 2.3.0
+
+Da [Bootstrap Italia v2.3.0](https://github.com/italia/bootstrap-italia/releases/tag/v2.3.0) abbiamo introdotto nuove variabili semantiche (collegate alla prossima integrazione dei token di progettazione).
+
+Queste variabili sono:
+
+```sss
+$color-background-primary-lighter
+$color-text-primary-active
+$color-text-primary-hover
+```
+
+Sono dichiarate in `_colors_vars.scss` ([dalla riga 392](https://github.com/italia/bootstrap-italia/blob/main/src/scss/utilities/colors_vars.scss)) e sovrascritte ad esempio in `bootstrap-italia-comuni.scss` [(linee 26-28)](https://github.com/italia/bootstrap-italia/blob/main/src/scss/bootstrap-italia-comuni.scss)
+
+Alcuni componenti adesso usano queste variabili invece di quelle vecchie (come `$neutral-` o `complementary-`).
+
+Per impostare correttamente il tema dell'installazione BI, è necessario assegnare un valore al tema. È possibile utilizzare i valori HEX, HSL o HSB.
+
 ## Riferimento
 
 La documentazione di Bootstrap Italia è presente su GitHub pages all'indirizzo https://italia.github.io/bootstrap-italia/docs/come-iniziare/personalizzazione-della-libreria/.
