@@ -23,7 +23,7 @@ bootstrap-italia-playground/
 
 * Installa le dipendenze: `npm install`
 * Compila l'applicazione: `npm run build`
-* Lancia un server locale: `npm run start`
+* Lancia un server locale: `npm run serve`
 * Vai all'indirizzo: `http://127.0.0.1:8080/` e continua a leggere.
 
 ## Personalizzare i colori di Bootstrap Italia
@@ -36,7 +36,7 @@ Per ottenere una versione personalizzata della libreria:
 * Nel file `index.html` commenta il file CSS della libreria Bootstrap Italia originale `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Nel file `index.html` decommenta il file CSS delle libreria Bootstrap Italia personalizzata `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 
-Lanciando di nuovo il sito con `npm run start`, il sito dovrebbe diventare rosso! 😉
+Lanciando di nuovo il sito con `npm run serve`, il sito dovrebbe diventare rosso! 😉
 
 ## Cambiamenti dalla versione Bootstrap Italia 2.3.0
 

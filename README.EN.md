@@ -21,7 +21,7 @@ bootstrap-italia-playground/
 
 * Install dependencies: `npm install`
 * Build the app: `npm run build`
-* Run a local server: `npm run start`
+* Run a local server: `npm run serve`
 * Point a browser to: `http://127.0.0.1:8080/`
 
 ## Updating Bootstrap Italia colours
@@ -33,7 +33,7 @@ To build a customised version of the library:
 * Comment out original Bootstrap Italia CSS `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
 * Uncomment Bootstrap Italia custom CSS `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
 
-Just run `npm run start` again: everything should be red! :)
+Just run `npm run serve` again: everything should be red! :)
 
 ## Reference
 
