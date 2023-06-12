@@ -11,7 +11,7 @@
   "author": "Presidenza del Consiglio dei Ministri",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap-italia": "^2.3.4"
+    "bootstrap-italia": "^2.5.0"
   },
   "devDependencies": {
     "http-server": "^14.1.0",
