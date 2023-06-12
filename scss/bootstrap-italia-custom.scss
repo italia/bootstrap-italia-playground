@@ -7,5 +7,9 @@ $primary-b: 100;
 // Nota: per convertire il codice esadecimale di un colore formato HSB
 // è possibile utilizzare ad esempio il sito https://rgb.to/.
 
+// Variabili del footer
+$footer-top-background: hsl(210, 12%, 13%); // color-blue-30
+$footer-bottom-background: hsl(208, 12%, 21%); // color-blue-20
+
 // import libreria
 @import "bootstrap-italia/src/scss/bootstrap-italia.scss";
