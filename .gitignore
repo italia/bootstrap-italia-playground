@@ -7,3 +7,6 @@ css/compiled/
 
 # BSI Next
 bootstrap-italia-next
+
+# System
+.DS_Store
