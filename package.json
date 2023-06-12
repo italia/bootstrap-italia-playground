@@ -4,7 +4,7 @@
   "description": "The easiest way to start playing with Bootstrap Italia.",
   "main": "index.js",
   "scripts": {
-    "vercel": "rm -rf ./bootstrap-italia && cp -r node_modules/bootstrap-italia/ ./bootstrap-italia",
+    "vercel": "del ./bootstrap-italia && recursive-copy -w node_modules/bootstrap-italia/ ./bootstrap-italia",
     "build": "npm run vercel && sass --load-path=node_modules scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
     "start": "http-server ."
   },
@@ -14,7 +14,9 @@
     "bootstrap-italia": "^2.5.0"
   },
   "devDependencies": {
+    "del-cli": "^5.0.0",
     "http-server": "^14.1.0",
+    "recursive-copy-cli": "^1.0.20",
     "sass": "1.54.9"
   }
 }
