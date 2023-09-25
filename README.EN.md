@@ -35,6 +35,24 @@ To build a customised version of the library:
 
 Just run `npm run serve` again: everything should be red! :)
 
+## Changes from Bootstrap Italia version 2.3.0
+
+From [Bootstrap Italia v2.3.0](https://github.com/italia/bootstrap-italia/releases/tag/v2.3.0) we have introduced new semantic variables (linked to the next integration of design tokens).
+
+These variables are:
+
+```sss
+$color-background-primary-lighter
+$color-text-primary-active
+$color-text-primary-hover
+```
+
+declared in `_colors_vars.scss` ([from line 392](https://github.com/italia/bootstrap-italia/blob/main/src/scss/utilities/colors_vars.scss)) and overridden in ` bootstrap-italia-comuni.scss` [(lines 26-28)](https://github.com/italia/bootstrap-italia/blob/main/src/scss/bootstrap-italia-comuni.scss)
+
+Some components now use these variables instead of the old ones (like `$neutral-` or `complementary-`).
+
+To correctly customize the main theme of your BI installation, you must assign a value to the them. You can use HEX, HSL, or HSB values.
+
 ## Reference
 
 Bootstrap Italia documentation is hosted on GitHub pages at https://italia.github.io/bootstrap-italia/docs/come-iniziare/personalizzazione-della-libreria/ (in italian).
