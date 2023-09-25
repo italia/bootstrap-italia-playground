@@ -12,7 +12,7 @@
   "author": "Presidenza del Consiglio dei Ministri",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap-italia": "^2.5.0"
+    "bootstrap-italia": "^2.7.0"
   },
   "devDependencies": {
     "del-cli": "^5.0.0",
