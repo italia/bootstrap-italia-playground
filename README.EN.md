@@ -2,7 +2,7 @@
 
 This little project is the easiest way to start playing with [Bootstrap Italia](https://italia.github.io/bootstrap-italia/).
 
-<img src="https://github.com/italia/bootstrap-italia-playground/blob/master/bootstrap-italia-playground.png" width="800"> 
+<img src="https://github.com/italia/bootstrap-italia-playground/blob/main/.github/bootstrap-italia-playground.png" width="800"> 
 
 ## What's included
 
