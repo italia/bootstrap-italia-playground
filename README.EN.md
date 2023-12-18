@@ -11,8 +11,8 @@ You'll find a plain HTML page linking Bootstrap Italia files and empty CSS and J
 ```
 bootstrap-italia-playground/
 │   index.html          # main html file
-├── css/
-│   ├── main.css        # working CSS file
+├── scss/
+│   ├── _custom_.scss   # working SCSS file
 └── js/
     └── main.js         # working JS file
 ```
@@ -25,7 +25,7 @@ bootstrap-italia-playground/
 
 ## Updating Bootstrap Italia colours
 
-To update Bootstrap Italia primary colour, please refer to the `scss/main.scss` file, where `$primary` colour variable is overridden.  
+To update Bootstrap Italia primary colour, please refer to the `scss/_custom.scss` file, where `$primary` colour variable is overridden.  
 To build a customised version of the library:
 
 * Build a custom Bootstrap Italia CSS file with `npm run build`
@@ -46,8 +46,7 @@ $color-text-primary-active
 $color-text-primary-hover
 ```
 
-declared in `_colors_vars.scss` ([from line 392](https://github.com/italia/bootstrap-italia/blob/main/src/scss/utilities/colors_vars.scss)) and overridden in ` bootstrap-italia-comuni.scss` [(lines 26-28)](https://github.com/italia/bootstrap-italia/blob/main/src/scss/bootstrap-italia-comuni.scss)
-
+declared in `_colors_vars.scss` ([from line 392](https://github.com/italia/bootstrap-italia/blob/main/src/scss/utilities/colors_vars.scss)).
 Some components now use these variables instead of the old ones (like `$neutral-` or `complementary-`).
 
 To correctly customize the main theme of your BI installation, you must assign a value to the them. You can use HEX, HSL, or HSB values.

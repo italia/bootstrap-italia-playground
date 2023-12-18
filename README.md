@@ -13,8 +13,8 @@ Troverai una semplice pagina HTML con i riferimenti ai file di Bootstrap Italia 
 ```
 bootstrap-italia-playground/
 │   index.html          # main html file
-├── css/
-│   ├── main.css        # working CSS file
+├── scss/
+│   ├── _custom_.scss   # working SCSS file
 └── js/
     └── main.js         # working JS file
 ```
@@ -27,7 +27,7 @@ bootstrap-italia-playground/
 
 ## Personalizzare i colori di Bootstrap Italia
 
-Per personalizzare i colori di Bootstrap Italia, fai riferimento al file `scss/bootstrap-italia-custom.scss`, dove il colore `$primary` è sovrascritto nelle sue componenti.
+Per personalizzare i colori di Bootstrap Italia, fai riferimento al file `scss/_custom.scss`, dove il colore `$primary` è sovrascritto nelle sue componenti.
 Per ottenere una versione personalizzata della libreria:
 
 * Compila la libreria Bootstrap Italia personalizzata con: `npm run build`
@@ -49,8 +49,7 @@ $color-text-primary-active
 $color-text-primary-hover
 ```
 
-Sono dichiarate in `_colors_vars.scss` ([dalla riga 392](https://github.com/italia/bootstrap-italia/blob/main/src/scss/utilities/colors_vars.scss)) e sovrascritte ad esempio in `bootstrap-italia-comuni.scss` [(linee 26-28)](https://github.com/italia/bootstrap-italia/blob/main/src/scss/bootstrap-italia-comuni.scss)
-
+Sono dichiarate in `_colors_vars.scss` ([dalla riga 392](https://github.com/italia/bootstrap-italia/blob/main/src/scss/utilities/colors_vars.scss)).
 Alcuni componenti adesso usano queste variabili invece di quelle vecchie (come `$neutral-` o `complementary-`).
 
 Per impostare correttamente il tema dell'installazione BI, è necessario assegnare un valore al tema. È possibile utilizzare i valori HEX, HSL o HSB.
