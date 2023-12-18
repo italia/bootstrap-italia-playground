@@ -20,9 +20,8 @@ bootstrap-italia-playground/
 ## Getting started
 
 * Install dependencies: `npm install`
-* Build the app: `npm run build`
-* Run a local server: `npm run serve`
-* Point a browser to: `http://127.0.0.1:8080/`
+* Run a local server: `npm run serve` (auto refresh on every change)
+* Point a browser to: `http://127.0.0.1:3000/`
 
 ## Updating Bootstrap Italia colours
 

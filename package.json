@@ -6,19 +6,32 @@
   "scripts": {
     "vercel": "del ./bootstrap-italia && recursive-copy -w node_modules/bootstrap-italia/ ./bootstrap-italia",
     "build": "npm run vercel && sass --load-path=node_modules scss/bootstrap-italia-custom.scss:css/compiled/bootstrap-italia-custom.min.css --style=compressed",
-    "start": "http-server .",
-    "serve": "http-server ."
+    "start": "npm run serve",
+    "serve": "concurrently --kill-others \"npm-watch\" \"browser-sync start --server --no-inject-changes --files 'css/**/*.css'\""
   },
   "author": "Presidenza del Consiglio dei Ministri",
   "license": "BSD-3-Clause",
   "dependencies": {
     "bootstrap-italia": "^2.8.1"
   },
+  "watch": {
+    "build": {
+      "patterns": [
+        "index.html",
+        "scss/*.scss"
+      ],
+      "quiet": true,
+      "legacyWatch": true,
+      "delay": 2500
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2",
     "del-cli": "^5.0.0",
-    "http-server": "^14.1.0",
+    "npm-watch": "^0.11.0",
     "recursive-copy-cli": "^1.0.20",
     "sass": "1.54.9"
   }
