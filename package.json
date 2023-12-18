@@ -18,8 +18,9 @@
     "build": {
       "patterns": [
         "index.html",
-        "scss/*.scss"
+        "scss"
       ],
+      "extensions": "html,scss",
       "quiet": true,
       "legacyWatch": true,
       "delay": 2500
