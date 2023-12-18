@@ -26,13 +26,7 @@ bootstrap-italia-playground/
 ## Updating Bootstrap Italia colours
 
 To update Bootstrap Italia primary colour, please refer to the `scss/_custom.scss` file, where `$primary` colour variable is overridden.  
-To build a customised version of the library:
-
-* Build a custom Bootstrap Italia CSS file with `npm run build`
-* Comment out original Bootstrap Italia CSS `<link href="/node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css" rel="stylesheet">`
-* Uncomment Bootstrap Italia custom CSS `<link href="/css/bootstrap-italia-custom.min.css" rel="stylesheet">`
-
-Just run `npm run serve` again: everything should be red! :)
+Just run `npm run serve`: everything should be red! :)
 
 ## Changes from Bootstrap Italia version 2.3.0
 
@@ -40,7 +34,7 @@ From [Bootstrap Italia v2.3.0](https://github.com/italia/bootstrap-italia/releas
 
 These variables are:
 
-```sss
+```scss
 $color-background-primary-lighter
 $color-text-primary-active
 $color-text-primary-hover
