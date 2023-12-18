@@ -15,6 +15,8 @@
     "bootstrap-italia": "^2.8.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
     "del-cli": "^5.0.0",
     "http-server": "^14.1.0",
     "recursive-copy-cli": "^1.0.20",
