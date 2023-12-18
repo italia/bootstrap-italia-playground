@@ -22,9 +22,8 @@ bootstrap-italia-playground/
 ## Come lanciare l'ambiente in locale
 
 * Installa le dipendenze: `npm install`
-* Compila l'applicazione: `npm run build`
-* Lancia un server locale: `npm run serve`
-* Vai all'indirizzo: `http://127.0.0.1:8080/` e continua a leggere.
+* Lancia un server locale: `npm run serve` (auto refresh ad ogni cambiamento)
+* Vai all'indirizzo: `http://127.0.0.1:3000/`.
 
 ## Personalizzare i colori di Bootstrap Italia
 
