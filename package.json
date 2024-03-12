@@ -12,7 +12,7 @@
   "author": "Presidenza del Consiglio dei Ministri",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "bootstrap-italia": "^2.8.2"
+    "bootstrap-italia": "^2.8.3"
   },
   "watch": {
     "build": {
